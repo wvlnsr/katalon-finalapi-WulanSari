@@ -16,14 +16,6 @@
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Authorization</name>
-      <type>Main</type>
-      <value>Basic YWRtaW46cGFzc3dvcmQxMjM=</value>
-      <webElementGuid>cb8421da-4d37-4676-9f89-6cf9c23294f5</webElementGuid>
-   </httpHeaderProperties>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
@@ -58,7 +50,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${GlobalVariable.APIbaseUrl}booking/${GlobalVariable.id}</restUrl>
+   <restUrl>${GlobalVariable.baseUrl}booking/${GlobalVariable.id}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

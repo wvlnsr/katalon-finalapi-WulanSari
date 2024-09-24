@@ -28,4 +28,6 @@ def token = result.token
 assert token instanceof String
 assert token != null
 
+GlobalVariable.token = token
+
 println("Token: " + token)

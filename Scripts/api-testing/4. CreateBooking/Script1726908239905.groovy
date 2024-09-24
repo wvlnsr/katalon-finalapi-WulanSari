@@ -35,3 +35,5 @@ assert checkin instanceof String
 
 assert firstname == "Jim"
 assert bookingid != null
+
+GlobalVariable.id = bookingid
