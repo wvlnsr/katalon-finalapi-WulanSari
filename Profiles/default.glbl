@@ -6,13 +6,13 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://restful-booker.herokuapp.com/'</initValue>
-      <name>APIbaseUrl</name>
+      <initValue>'abc123'</initValue>
+      <name>token</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'abc123'</initValue>
-      <name>token</name>
+      <initValue>'https://restful-booker.herokuapp.com/'</initValue>
+      <name>baseUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -21,12 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'4'</initValue>
+      <initValue>'7'</initValue>
       <name>id</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://advantageonlineshopping.com/#/'</initValue>
-      <name>WEBbaseUrl</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

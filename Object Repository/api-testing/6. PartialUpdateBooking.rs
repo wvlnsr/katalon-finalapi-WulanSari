@@ -30,7 +30,7 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Basic YWRtaW46cGFzc3dvcmQxMjM=</value>
+      <value>Basic ${GlobalVariable.auth}</value>
       <webElementGuid>529194d2-2dd5-4627-b694-6a416b43c7af</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
@@ -46,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>Cookie</name>
       <type>Main</type>
-      <value>token=abc123</value>
+      <value>token=${GlobalVariable.token}</value>
       <webElementGuid>5c633b41-dd46-48ec-9660-625d6ac14877</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.6.0</katalonVersion>
@@ -54,7 +54,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PATCH</restRequestMethod>
-   <restUrl>${GlobalVariable.APIbaseUrl}booking/${GlobalVariable.id}</restUrl>
+   <restUrl>${GlobalVariable.baseUrl}booking/${GlobalVariable.id}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
